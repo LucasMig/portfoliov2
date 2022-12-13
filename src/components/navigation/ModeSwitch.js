@@ -9,9 +9,9 @@ const ModeSwitch = () => {
     setTheme(newState);
   };
 
-  useEffect(() => {
-    setTheme(false);
-  }, []);
+  // useEffect(() => {
+  //   setTheme(false);
+  // }, []);
 
   useEffect(() => {
     document.body.classList.toggle("dark");
