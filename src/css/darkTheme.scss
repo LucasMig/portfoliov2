@@ -1,0 +1,95 @@
+/* DARK MODE */
+
+.dark {
+  background-color: var(--gray-1);
+
+  span {
+    color: var(--gray-0);
+  }
+
+  .text {
+    color: var(--gray-0);
+  }
+
+  a {
+    .tooltip {
+      background-color: var(--gray-0);
+      color: #000;
+    }
+  }
+
+  .toggle__menu {
+    background-color: var(--gray-1);
+    border: solid 1px var(--color-main);
+    color: var(--gray-0);
+
+    > p {
+      color: var(--gray-0);
+    }
+  }
+
+  .nav__link {
+    border: solid 1px var(--color-main);
+  }
+
+  .nav__link a {
+    color: var(--gray-0);
+  }
+
+  .--name {
+    border: none;
+    color: var(--gray-0);
+  }
+
+  .icon {
+    color: var(--gray-0);
+  }
+
+  .mode__switch {
+    color: var(--gray-0);
+  }
+
+  .project__title {
+    color: var(--gray-0);
+    border-top: solid 1px var(--color-main);
+  }
+
+  .card {
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.3);
+    background: linear-gradient(
+      120deg,
+      rgba(51, 51, 51, 1) 25%,
+      rgb(34, 57, 49) 100%
+    );
+  }
+
+  .card__link {
+    a {
+      color: var(--gray-0);
+    }
+  }
+
+  .label {
+    background-color: var(--gray-2);
+    border: solid 1px var(--color-main);
+  }
+
+  .footer {
+    background-color: var(--gray-2);
+  }
+
+  .social__link {
+    color: var(--gray-0);
+  }
+
+  @media (max-width: 24em) {
+    .nav__links {
+      background: linear-gradient(
+        120deg,
+        rgb(51, 51, 51) 25%,
+        rgb(34, 57, 49) 100%
+      );
+      opacity: 98%;
+    }
+  }
+}
