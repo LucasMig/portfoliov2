@@ -167,9 +167,10 @@ a {
 .mode__switch {
   border: solid 1px var(--gray-7);
   border-radius: 10px;
+  position: relative;
 
   > .tooltip {
-    top: 13%;
+    top: 110%;
   }
 }
 
@@ -237,6 +238,7 @@ a {
     }
   }
 }
+
 /* -------------------- */
 /* ----- PROJECTS ----- */
 /* -------------------- */
