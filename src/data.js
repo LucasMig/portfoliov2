@@ -13,6 +13,7 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
+  FaReact,
 } from "react-icons/fa";
 
 export const navigation = [
@@ -48,6 +49,31 @@ export const coverLetter = [
 export const projects = [
   {
     id: 1,
+    name: "Markdown preview",
+    techs: [
+      { name: "js", icon: <FaJs /> },
+      { name: "react", icon: <FaReact /> },
+      { name: "css", icon: <FaCss3Alt /> },
+    ],
+    imageUrl: "https://i.ibb.co/XLH7Vhg/mdpreview-compressed.webp",
+    title: "I can finally see it!",
+    description:
+      "Everytime I create a new repo, I try to add a readme file. The problem is having to save the file constantly in order to visualize if formatting is going as intended. Well, no more! Now, with this tool, I can visualize things formatted while typing - in real time.",
+    links: [
+      {
+        name: "repository",
+        url: "https://github.com/LucasMig/markdown-preview",
+        icon: <FaCode />,
+      },
+      {
+        name: "view live",
+        url: "https://mdpreview-migliori.netlify.app/",
+        icon: <FaEye />,
+      },
+    ],
+  },
+  {
+    id: 2,
     name: "calculatas",
     techs: [
       { name: "html", icon: <FaHtml5 /> },
@@ -72,7 +98,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "forkify",
     techs: [
       { name: "html", icon: <FaHtml5 /> },
@@ -97,7 +123,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "bankist",
     techs: [
       { name: "html", icon: <FaHtml5 /> },
@@ -122,7 +148,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "mappin",
     techs: [
       { name: "html", icon: <FaHtml5 /> },
