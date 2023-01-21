@@ -48,6 +48,31 @@ export const coverLetter = [
 
 export const projects = [
   {
+    id: 3,
+    name: "Stock Photos",
+    techs: [
+      { name: "js", icon: <FaJs /> },
+      { name: "react", icon: <FaReact /> },
+      { name: "css", icon: <FaCss3Alt /> },
+    ],
+    imageUrl: "https://i.ibb.co/N6qwMTQ/stock-Photos-compressed.webp",
+    title: "Nice images to keep you scrolling forever",
+    description:
+      "This is more like a practice project to stick React.js and API consumption in my head. This mini application gets the images from Unsplash API and displays them with a infinite scroll. Oh, it's also possible to search images!",
+    links: [
+      {
+        name: "repository",
+        url: "https://github.com/LucasMig/stock-photos",
+        icon: <FaCode />,
+      },
+      {
+        name: "view live",
+        url: "https://stock-photos-migliori.netlify.app/",
+        icon: <FaEye />,
+      },
+    ],
+  },
+  {
     id: 1,
     name: "Markdown preview",
     techs: [
@@ -98,7 +123,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "forkify",
     techs: [
       { name: "html", icon: <FaHtml5 /> },
@@ -118,31 +143,6 @@ export const projects = [
       {
         name: "view live",
         url: "https://forkify-migliori.netlify.app/",
-        icon: <FaEye />,
-      },
-    ],
-  },
-  {
-    id: 4,
-    name: "bankist",
-    techs: [
-      { name: "html", icon: <FaHtml5 /> },
-      { name: "css", icon: <FaCss3Alt /> },
-      { name: "js", icon: <FaJs /> },
-    ],
-    imageUrl: "https://i.ibb.co/zfNVn3s/bankist-compressed.webp",
-    title: "A basic bank service simulation",
-    description:
-      "This is a project built during a JavaScript course. It basically aims to simulate a bank account with some basic functions, such as transfering or borrowing money. To properly test this one, please check out the readme file on my GitHub.",
-    links: [
-      {
-        name: "repository",
-        url: "https://github.com/LucasMig/bankist-app",
-        icon: <FaCode />,
-      },
-      {
-        name: "view live",
-        url: "https://bankist-migliori.netlify.app/",
         icon: <FaEye />,
       },
     ],
