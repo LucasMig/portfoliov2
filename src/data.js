@@ -40,8 +40,8 @@ export const navigation = [
 
 export const coverLetter = [
   "Hello there! 👋🏼",
-  "I'm Lucas Migliori, a Brazilian Front-end Developer. Really glad to see you here.",
-  "Currently, I'm working with Software QA at Jüsto. In my spare time, I work on my own projects and some freelance jobs in order to improve my development skills.",
+  "I'm Lucas Migliori, a brazilian Software Developer with a passion for front-end development, complemented by experience in software QA and testing. Really glad to see you here.",
+  "Currently, I'm working at Digital Republic, where I deliver a mix of front-end development (especially React) and QA tasks (mainly UI, API and accessibility manual testing) for a wide range of clients, including companies like Google, R/GA, Fundação Bradesco and others.",
   "Besides being 'the average nerd' who's able to spend an impressive time looking at code lines, I'm also passionate about financial market's and would spend an entire afternoon talking about it.",
   "I guess this pretty much sums it up! Please, feel free to take a look at some of my work below.",
 ];
